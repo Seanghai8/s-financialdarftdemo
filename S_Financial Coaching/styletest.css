@@ -1,0 +1,66 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.approach-section {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly dark overlay for better contrast */
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00FF99; /* Greenish tint for the title */
+}
+
+/* Steps container */
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Step box */
+.step {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Arrow for connecting steps */
+.step.arrow::after {
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 15px solid #00FF99; /* Green arrow */
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+/* Headings and paragraphs */
+.step h2 {
+    font-size: 24px;
+    color: #00FF99; /* Green color for headings */
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+    color: #FFFFFF; /* Text remains white */
+}
