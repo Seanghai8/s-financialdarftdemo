@@ -1058,48 +1058,4 @@ footer {
     color: #0f0f1e;
   }
 
-
-
----------------------------------------------------------
-
-
-@media screen and (max-width: 576px) {
-    
-    nav ul li a{
-        font-size: 13px;
-    }
-
-    nav .logo a{
-        font-size: 18px;
-    }
-
-    .hero .left h3{
-        font-size: 32px;
-    }
-
-    .hero .left p{
-        font-size: 16px;
-    }
-
-    .hero .left button{
-        width: 100%;
-    }
-
-    .skills .skill-items .item{
-        width: 100%;
-    }
-
-    .portfolio .header button{
-        font-size: 12px;
-        padding: 8px 14px;
-    }
-
-    .portfolio .portfo-items .item{
-        width: 80%;
-    }
-
-    .feedback .customers .item{
-        width: 100%;
-    }
-
-} 
+  }
